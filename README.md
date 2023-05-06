@@ -36,3 +36,4 @@ minikube service web
 https://faun.pub/how-to-deploy-to-kubernetes-using-argo-cd-ee743cd3661b
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
 https://www.unixarena.com/2019/05/kubernetes-minikube-how-to-deploy-application-using-dashboard.html/
+https://medium.com/@mehmetodabashi/installing-argocd-on-minikube-and-deploying-a-test-application-caa68ec55fbf

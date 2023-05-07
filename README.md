@@ -1,6 +1,11 @@
 # gitops-demo
 Demo for Applications Arquitecture Class
 
+## CI/CD Workflow
+
+![Worflow](diagram.png)
+
+
 ## Commands
 
 ### Setting up aws connection (if you are running the lab via AWS)
@@ -30,10 +35,9 @@ kubectl apply -f deployment/
 minikube service web
 ```
 
-
 ## Tutorials used as reference
 
-https://faun.pub/how-to-deploy-to-kubernetes-using-argo-cd-ee743cd3661b
-https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
-https://www.unixarena.com/2019/05/kubernetes-minikube-how-to-deploy-application-using-dashboard.html/
-https://medium.com/@mehmetodabashi/installing-argocd-on-minikube-and-deploying-a-test-application-caa68ec55fbf
+- https://faun.pub/how-to-deploy-to-kubernetes-using-argo-cd-ee743cd3661b
+- https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
+- https://www.unixarena.com/2019/05/kubernetes-minikube-how-to-deploy-application-using-dashboard.html/
+- https://medium.com/@mehmetodabashi/installing-argocd-on-minikube-and-deploying-a-test-application-caa68ec55fbf

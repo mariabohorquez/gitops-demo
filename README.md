@@ -1,5 +1,5 @@
 # gitops-demo
-Demo for Applications Arquitecture Class
+Demo for use of github actions automatic releases + argocd.
 
 ## CI/CD Workflow
 

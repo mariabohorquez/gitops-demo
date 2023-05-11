@@ -6,7 +6,7 @@ metadata:
     app: web
   name: web
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: web
@@ -18,7 +18,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: bocchitherock/gitops-demo:v3.0.0
+      - image: bocchitherock/gitops-demo:v4.0.0
         name: gitops-demo
         ports:
         - containerPort: 80
